@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="130" id="KGk-i7-Jjw" customClass="BATCrimeTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZQL-Sq-g8K">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="joker.png" translatesAutoresizingMaskIntoConstraints="NO" id="Y74-cA-Wh1">
+                                <rect key="frame" x="8" y="4" width="105" height="115"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="105" id="CgG-Km-VXC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Joker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="XMi-TC-jBY">
+                                <rect key="frame" x="8" y="97" width="105" height="22"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.47999999999999998" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bank Robbery" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8f3-eJ-YGW">
+                                <rect key="frame" x="121" y="13" width="191" height="73"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73" id="gZH-pb-L3k"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="reported at 11:30 am" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jvp-zq-szO">
+                                <rect key="frame" x="121" y="87" width="191" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="scF-w6-2yF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jvp-zq-szO" firstAttribute="top" secondItem="8f3-eJ-YGW" secondAttribute="bottom" constant="1" id="FBp-IY-WbK"/>
+                            <constraint firstItem="8f3-eJ-YGW" firstAttribute="leading" secondItem="Y74-cA-Wh1" secondAttribute="trailing" constant="8" id="Jyk-0N-rQm"/>
+                            <constraint firstItem="Y74-cA-Wh1" firstAttribute="top" secondItem="ZQL-Sq-g8K" secondAttribute="top" constant="4" id="Sco-3s-Vcc"/>
+                            <constraint firstItem="8f3-eJ-YGW" firstAttribute="leading" secondItem="Y74-cA-Wh1" secondAttribute="trailing" constant="8" id="TfB-O1-5Ss"/>
+                            <constraint firstItem="jvp-zq-szO" firstAttribute="leading" secondItem="Y74-cA-Wh1" secondAttribute="trailing" constant="8" id="U3p-t5-YXU"/>
+                            <constraint firstAttribute="bottom" secondItem="Y74-cA-Wh1" secondAttribute="bottom" id="c2O-he-KW5"/>
+                            <constraint firstAttribute="centerY" secondItem="8f3-eJ-YGW" secondAttribute="centerY" constant="10.25" id="kpl-Aa-8zA"/>
+                            <constraint firstItem="Y74-cA-Wh1" firstAttribute="leading" secondItem="ZQL-Sq-g8K" secondAttribute="leading" constant="8" id="o5t-W1-Hlx"/>
+                            <constraint firstItem="8f3-eJ-YGW" firstAttribute="centerX" secondItem="jvp-zq-szO" secondAttribute="centerX" id="okI-ET-TKA"/>
+                            <constraint firstAttribute="trailing" secondItem="8f3-eJ-YGW" secondAttribute="trailing" constant="8" id="pQu-EZ-dAG"/>
+                            <constraint firstAttribute="trailing" secondItem="jvp-zq-szO" secondAttribute="trailing" constant="8" id="rVb-tH-Zo1"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Jyk-0N-rQm"/>
+                                <exclude reference="okI-ET-TKA"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ZQL-Sq-g8K" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="AnW-fY-Tfz"/>
+                    <constraint firstAttribute="trailing" secondItem="ZQL-Sq-g8K" secondAttribute="trailing" id="iXV-jT-thc"/>
+                    <constraint firstItem="ZQL-Sq-g8K" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="l46-hC-BTF"/>
+                    <constraint firstAttribute="bottom" secondItem="ZQL-Sq-g8K" secondAttribute="bottom" constant="10" id="zl2-RI-u4N"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="crimeReportTimeLabel" destination="jvp-zq-szO" id="ikl-lB-aeS"/>
+                <outlet property="crimeTitleLabel" destination="8f3-eJ-YGW" id="t9t-lA-X3A"/>
+                <outlet property="villainImageView" destination="Y74-cA-Wh1" id="5sA-OJ-Qee"/>
+                <outlet property="villainNameLabel" destination="8f3-eJ-YGW" id="5C8-mV-dwa"/>
+            </connections>
+            <point key="canvasLocation" x="316" y="279"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="joker.png" width="150" height="334"/>
+    </resources>
+</document>

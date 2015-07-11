@@ -1,0 +1,1053 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0520241B451551006F5F68 /* joker_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0520201B451551006F5F68 /* joker_pin.png */; };
+		2D0520251B451551006F5F68 /* penguin_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0520211B451551006F5F68 /* penguin_pin.png */; };
+		2D0520261B451551006F5F68 /* rasalgul_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0520221B451551006F5F68 /* rasalgul_pin.png */; };
+		2D0520271B451551006F5F68 /* riddler_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0520231B451551006F5F68 /* riddler_pin.png */; };
+		2D05202A1B45162D006F5F68 /* BATMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0520291B45162D006F5F68 /* BATMapViewController.m */; };
+		2D05202D1B451674006F5F68 /* BATLocationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D05202C1B451674006F5F68 /* BATLocationHelper.m */; };
+		2D05202F1B451C0E006F5F68 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D05202E1B451C0E006F5F68 /* MapKit.framework */; };
+		2D0520311B451C15006F5F68 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0520301B451C15006F5F68 /* CoreLocation.framework */; };
+		2D0520341B452422006F5F68 /* BATMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0520331B452422006F5F68 /* BATMapAnnotation.m */; };
+		2D0520381B452873006F5F68 /* bane_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0520351B452873006F5F68 /* bane_pin.png */; };
+		2D0520391B452873006F5F68 /* freeze_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0520361B452873006F5F68 /* freeze_pin.png */; };
+		2D05203A1B452873006F5F68 /* ivy_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0520371B452873006F5F68 /* ivy_pin.png */; };
+		2D05203D1B45296D006F5F68 /* BATCrimeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D05203C1B45296D006F5F68 /* BATCrimeDetailViewController.m */; };
+		2D6B4C521B4BA8AE00DF0537 /* BATVillainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE62AD21B44DA790003884D /* BATVillainObject.m */; };
+		2D6B4C531B4BA8B000DF0537 /* BATCrimeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE62AD51B44DA860003884D /* BATCrimeObject.m */; };
+		2D6B4C771B4BB55D00DF0537 /* BATCrimeDetailInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6B4C761B4BB55D00DF0537 /* BATCrimeDetailInterfaceController.m */; };
+		2D8D324A1B4F3F9200FB5A57 /* bane_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2AC81B4A5E6F004A8D4C /* bane_small.png */; };
+		2D8D324B1B4F3F9200FB5A57 /* ivy_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2AC91B4A5E6F004A8D4C /* ivy_small.png */; };
+		2D8D324C1B4F3F9200FB5A57 /* joker_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2ACA1B4A5E6F004A8D4C /* joker_small.png */; };
+		2D8D324D1B4F3F9200FB5A57 /* mr-freeze_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2ACB1B4A5E6F004A8D4C /* mr-freeze_small.png */; };
+		2D8D324E1B4F3F9200FB5A57 /* penguin_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2ACC1B4A5E6F004A8D4C /* penguin_small.png */; };
+		2D8D324F1B4F3F9200FB5A57 /* ras-al-gul_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2ACD1B4A5E6F004A8D4C /* ras-al-gul_small.png */; };
+		2D8D32501B4F3F9200FB5A57 /* riddler_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2ACE1B4A5E6F004A8D4C /* riddler_small.png */; };
+		2D8D32511B4F3F9200FB5A57 /* joker_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0520201B451551006F5F68 /* joker_pin.png */; };
+		2D8D32521B4F3F9200FB5A57 /* penguin_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0520211B451551006F5F68 /* penguin_pin.png */; };
+		2D8D32531B4F3F9200FB5A57 /* rasalgul_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0520221B451551006F5F68 /* rasalgul_pin.png */; };
+		2D8D32541B4F3F9200FB5A57 /* riddler_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0520231B451551006F5F68 /* riddler_pin.png */; };
+		2D8D32551B4F3F9200FB5A57 /* bane_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0520351B452873006F5F68 /* bane_pin.png */; };
+		2D8D32561B4F3F9200FB5A57 /* freeze_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0520361B452873006F5F68 /* freeze_pin.png */; };
+		2D8D32571B4F3F9200FB5A57 /* ivy_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0520371B452873006F5F68 /* ivy_pin.png */; };
+		2D8D32581B4F3F9200FB5A57 /* ark-knight.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AA91B44D4380003884D /* ark-knight.png */; };
+		2D8D32591B4F3F9200FB5A57 /* bane.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AAA1B44D4380003884D /* bane.png */; };
+		2D8D325A1B4F3F9200FB5A57 /* clay-face.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AAB1B44D4380003884D /* clay-face.png */; };
+		2D8D325B1B4F3F9200FB5A57 /* harley-quinn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AAC1B44D4380003884D /* harley-quinn.png */; };
+		2D8D325C1B4F3F9200FB5A57 /* ivy.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AAD1B44D4380003884D /* ivy.png */; };
+		2D8D325D1B4F3F9200FB5A57 /* jason-todd.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AAE1B44D4380003884D /* jason-todd.png */; };
+		2D8D325E1B4F3F9200FB5A57 /* joker.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AAF1B44D4380003884D /* joker.png */; };
+		2D8D325F1B4F3F9200FB5A57 /* killer-croc.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AB01B44D4380003884D /* killer-croc.png */; };
+		2D8D32601B4F3F9200FB5A57 /* mr-freeze.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AB11B44D4380003884D /* mr-freeze.png */; };
+		2D8D32611B4F3F9200FB5A57 /* penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AB21B44D4380003884D /* penguin.png */; };
+		2D8D32621B4F3F9200FB5A57 /* ras-al-gul.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AB31B44D4380003884D /* ras-al-gul.png */; };
+		2D8D32631B4F3F9200FB5A57 /* riddler.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AB41B44D4380003884D /* riddler.png */; };
+		2D8D32641B4F3F9200FB5A57 /* two-face.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AB51B44D4380003884D /* two-face.png */; };
+		2D8D32651B4F3F9400FB5A57 /* bane_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2AC81B4A5E6F004A8D4C /* bane_small.png */; };
+		2D8D32661B4F3F9400FB5A57 /* ivy_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2AC91B4A5E6F004A8D4C /* ivy_small.png */; };
+		2D8D32671B4F3F9400FB5A57 /* joker_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2ACA1B4A5E6F004A8D4C /* joker_small.png */; };
+		2D8D32681B4F3F9400FB5A57 /* mr-freeze_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2ACB1B4A5E6F004A8D4C /* mr-freeze_small.png */; };
+		2D8D32691B4F3F9400FB5A57 /* penguin_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2ACC1B4A5E6F004A8D4C /* penguin_small.png */; };
+		2D8D326A1B4F3F9400FB5A57 /* ras-al-gul_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2ACD1B4A5E6F004A8D4C /* ras-al-gul_small.png */; };
+		2D8D326B1B4F3F9400FB5A57 /* riddler_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2ACE1B4A5E6F004A8D4C /* riddler_small.png */; };
+		2D8D326C1B4F3F9400FB5A57 /* joker_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0520201B451551006F5F68 /* joker_pin.png */; };
+		2D8D326D1B4F3F9400FB5A57 /* penguin_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0520211B451551006F5F68 /* penguin_pin.png */; };
+		2D8D326E1B4F3F9400FB5A57 /* rasalgul_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0520221B451551006F5F68 /* rasalgul_pin.png */; };
+		2D8D326F1B4F3F9400FB5A57 /* riddler_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0520231B451551006F5F68 /* riddler_pin.png */; };
+		2D8D32701B4F3F9400FB5A57 /* bane_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0520351B452873006F5F68 /* bane_pin.png */; };
+		2D8D32711B4F3F9400FB5A57 /* freeze_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0520361B452873006F5F68 /* freeze_pin.png */; };
+		2D8D32721B4F3F9400FB5A57 /* ivy_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D0520371B452873006F5F68 /* ivy_pin.png */; };
+		2D8D32731B4F3F9400FB5A57 /* ark-knight.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AA91B44D4380003884D /* ark-knight.png */; };
+		2D8D32741B4F3F9400FB5A57 /* bane.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AAA1B44D4380003884D /* bane.png */; };
+		2D8D32751B4F3F9400FB5A57 /* clay-face.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AAB1B44D4380003884D /* clay-face.png */; };
+		2D8D32761B4F3F9400FB5A57 /* harley-quinn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AAC1B44D4380003884D /* harley-quinn.png */; };
+		2D8D32771B4F3F9400FB5A57 /* ivy.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AAD1B44D4380003884D /* ivy.png */; };
+		2D8D32781B4F3F9400FB5A57 /* jason-todd.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AAE1B44D4380003884D /* jason-todd.png */; };
+		2D8D32791B4F3F9400FB5A57 /* joker.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AAF1B44D4380003884D /* joker.png */; };
+		2D8D327A1B4F3F9400FB5A57 /* killer-croc.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AB01B44D4380003884D /* killer-croc.png */; };
+		2D8D327B1B4F3F9400FB5A57 /* mr-freeze.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AB11B44D4380003884D /* mr-freeze.png */; };
+		2D8D327C1B4F3F9400FB5A57 /* penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AB21B44D4380003884D /* penguin.png */; };
+		2D8D327D1B4F3F9400FB5A57 /* ras-al-gul.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AB31B44D4380003884D /* ras-al-gul.png */; };
+		2D8D327E1B4F3F9400FB5A57 /* riddler.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AB41B44D4380003884D /* riddler.png */; };
+		2D8D327F1B4F3F9400FB5A57 /* two-face.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AB51B44D4380003884D /* two-face.png */; };
+		2D8D32811B4F446300FB5A57 /* bat_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D8D32801B4F446300FB5A57 /* bat_pin.png */; };
+		2D8D32821B4F446300FB5A57 /* bat_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D8D32801B4F446300FB5A57 /* bat_pin.png */; };
+		2D8D32831B4F446300FB5A57 /* bat_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D8D32801B4F446300FB5A57 /* bat_pin.png */; };
+		2DAF3CD31B50A78200D98B36 /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DAF3CD21B50A78200D98B36 /* avatar.jpg */; };
+		2DAF3CD41B50A78200D98B36 /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DAF3CD21B50A78200D98B36 /* avatar.jpg */; };
+		2DAF3CD51B50A78200D98B36 /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DAF3CD21B50A78200D98B36 /* avatar.jpg */; };
+		2DDF2AAA1B4A4C08004A8D4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2AA91B4A4C08004A8D4C /* Images.xcassets */; };
+		2DDF2AAE1B4A4C08004A8D4C /* BatmanRaderApp WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2AAD1B4A4C08004A8D4C /* BatmanRaderApp WatchKit App.app */; };
+		2DDF2AB61B4A4C08004A8D4C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2AB41B4A4C08004A8D4C /* Interface.storyboard */; };
+		2DDF2AB81B4A4C08004A8D4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2AB71B4A4C08004A8D4C /* Images.xcassets */; };
+		2DDF2ABC1B4A4C08004A8D4C /* BatmanRaderApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2DDF2A9E1B4A4C08004A8D4C /* BatmanRaderApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2DDF2AC71B4A4FB0004A8D4C /* BATCrimesListInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDF2AC61B4A4FB0004A8D4C /* BATCrimesListInterfaceController.m */; };
+		2DDF2ACF1B4A5E6F004A8D4C /* bane_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2AC81B4A5E6F004A8D4C /* bane_small.png */; };
+		2DDF2AD11B4A5E6F004A8D4C /* ivy_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2AC91B4A5E6F004A8D4C /* ivy_small.png */; };
+		2DDF2AD31B4A5E6F004A8D4C /* joker_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2ACA1B4A5E6F004A8D4C /* joker_small.png */; };
+		2DDF2AD51B4A5E6F004A8D4C /* mr-freeze_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2ACB1B4A5E6F004A8D4C /* mr-freeze_small.png */; };
+		2DDF2AD71B4A5E6F004A8D4C /* penguin_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2ACC1B4A5E6F004A8D4C /* penguin_small.png */; };
+		2DDF2AD91B4A5E6F004A8D4C /* ras-al-gul_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2ACD1B4A5E6F004A8D4C /* ras-al-gul_small.png */; };
+		2DDF2ADB1B4A5E6F004A8D4C /* riddler_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDF2ACE1B4A5E6F004A8D4C /* riddler_small.png */; };
+		2DE62A851B44D3F90003884D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE62A841B44D3F90003884D /* AppDelegate.m */; };
+		2DE62A8B1B44D3F90003884D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62A891B44D3F90003884D /* Main.storyboard */; };
+		2DE62A8D1B44D3F90003884D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62A8C1B44D3F90003884D /* Images.xcassets */; };
+		2DE62A901B44D3F90003884D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62A8E1B44D3F90003884D /* LaunchScreen.xib */; };
+		2DE62A9C1B44D3F90003884D /* BatmanRaderAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE62A9B1B44D3F90003884D /* BatmanRaderAppTests.m */; };
+		2DE62AB81B44D4380003884D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AA61B44D4380003884D /* Info.plist */; };
+		2DE62AB91B44D4380003884D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE62AA71B44D4380003884D /* main.m */; };
+		2DE62ABA1B44D4380003884D /* ark-knight.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AA91B44D4380003884D /* ark-knight.png */; };
+		2DE62ABB1B44D4380003884D /* bane.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AAA1B44D4380003884D /* bane.png */; };
+		2DE62ABC1B44D4380003884D /* clay-face.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AAB1B44D4380003884D /* clay-face.png */; };
+		2DE62ABD1B44D4380003884D /* harley-quinn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AAC1B44D4380003884D /* harley-quinn.png */; };
+		2DE62ABE1B44D4380003884D /* ivy.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AAD1B44D4380003884D /* ivy.png */; };
+		2DE62ABF1B44D4380003884D /* jason-todd.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AAE1B44D4380003884D /* jason-todd.png */; };
+		2DE62AC01B44D4380003884D /* joker.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AAF1B44D4380003884D /* joker.png */; };
+		2DE62AC11B44D4380003884D /* killer-croc.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AB01B44D4380003884D /* killer-croc.png */; };
+		2DE62AC21B44D4380003884D /* mr-freeze.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AB11B44D4380003884D /* mr-freeze.png */; };
+		2DE62AC31B44D4380003884D /* penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AB21B44D4380003884D /* penguin.png */; };
+		2DE62AC41B44D4380003884D /* ras-al-gul.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AB31B44D4380003884D /* ras-al-gul.png */; };
+		2DE62AC51B44D4380003884D /* riddler.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AB41B44D4380003884D /* riddler.png */; };
+		2DE62AC61B44D4380003884D /* two-face.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62AB51B44D4380003884D /* two-face.png */; };
+		2DE62AC91B44D4820003884D /* BATCrimesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE62AC81B44D4820003884D /* BATCrimesListViewController.m */; };
+		2DE62ACD1B44D6240003884D /* BATCrimeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE62ACB1B44D6240003884D /* BATCrimeTableViewCell.m */; };
+		2DE62ACE1B44D6240003884D /* BATCrimeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DE62ACC1B44D6240003884D /* BATCrimeTableViewCell.xib */; };
+		2DE62AD31B44DA790003884D /* BATVillainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE62AD21B44DA790003884D /* BATVillainObject.m */; };
+		2DE62AD61B44DA860003884D /* BATCrimeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE62AD51B44DA860003884D /* BATCrimeObject.m */; };
+		2DE62AD91B44DB620003884D /* BATCrimesDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE62AD81B44DB620003884D /* BATCrimesDataSource.m */; };
+		2DEA62121B4B964100E289B8 /* BATCrimeCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEA62111B4B964100E289B8 /* BATCrimeCellController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DDF2AAF1B4A4C08004A8D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DE62A741B44D3F80003884D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DDF2AAC1B4A4C08004A8D4C;
+			remoteInfo = "BatmanRaderApp WatchKit App";
+		};
+		2DDF2AB91B4A4C08004A8D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DE62A741B44D3F80003884D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DDF2A9D1B4A4C08004A8D4C;
+			remoteInfo = "BatmanRaderApp WatchKit Extension";
+		};
+		2DE62A961B44D3F90003884D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DE62A741B44D3F80003884D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DE62A7B1B44D3F90003884D;
+			remoteInfo = BatmanRaderApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2DDF2ABB1B4A4C08004A8D4C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2DDF2ABC1B4A4C08004A8D4C /* BatmanRaderApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2D0520201B451551006F5F68 /* joker_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joker_pin.png; sourceTree = "<group>"; };
+		2D0520211B451551006F5F68 /* penguin_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penguin_pin.png; sourceTree = "<group>"; };
+		2D0520221B451551006F5F68 /* rasalgul_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rasalgul_pin.png; sourceTree = "<group>"; };
+		2D0520231B451551006F5F68 /* riddler_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riddler_pin.png; sourceTree = "<group>"; };
+		2D0520281B45162D006F5F68 /* BATMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATMapViewController.h; sourceTree = "<group>"; };
+		2D0520291B45162D006F5F68 /* BATMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATMapViewController.m; sourceTree = "<group>"; };
+		2D05202B1B451674006F5F68 /* BATLocationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATLocationHelper.h; sourceTree = "<group>"; };
+		2D05202C1B451674006F5F68 /* BATLocationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATLocationHelper.m; sourceTree = "<group>"; };
+		2D05202E1B451C0E006F5F68 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2D0520301B451C15006F5F68 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2D0520321B452422006F5F68 /* BATMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATMapAnnotation.h; sourceTree = "<group>"; };
+		2D0520331B452422006F5F68 /* BATMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATMapAnnotation.m; sourceTree = "<group>"; };
+		2D0520351B452873006F5F68 /* bane_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bane_pin.png; sourceTree = "<group>"; };
+		2D0520361B452873006F5F68 /* freeze_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = freeze_pin.png; sourceTree = "<group>"; };
+		2D0520371B452873006F5F68 /* ivy_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ivy_pin.png; sourceTree = "<group>"; };
+		2D05203B1B45296D006F5F68 /* BATCrimeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATCrimeDetailViewController.h; sourceTree = "<group>"; };
+		2D05203C1B45296D006F5F68 /* BATCrimeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATCrimeDetailViewController.m; sourceTree = "<group>"; };
+		2D6B4C751B4BB55D00DF0537 /* BATCrimeDetailInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATCrimeDetailInterfaceController.h; sourceTree = "<group>"; };
+		2D6B4C761B4BB55D00DF0537 /* BATCrimeDetailInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATCrimeDetailInterfaceController.m; sourceTree = "<group>"; };
+		2D8D32801B4F446300FB5A57 /* bat_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bat_pin.png; sourceTree = "<group>"; };
+		2DAF3CD21B50A78200D98B36 /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
+		2DDF2A9E1B4A4C08004A8D4C /* BatmanRaderApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BatmanRaderApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DDF2AA11B4A4C08004A8D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DDF2AA21B4A4C08004A8D4C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		2DDF2AA91B4A4C08004A8D4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2DDF2AAD1B4A4C08004A8D4C /* BatmanRaderApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BatmanRaderApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DDF2AB31B4A4C08004A8D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DDF2AB51B4A4C08004A8D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		2DDF2AB71B4A4C08004A8D4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2DDF2AC51B4A4FB0004A8D4C /* BATCrimesListInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATCrimesListInterfaceController.h; sourceTree = "<group>"; };
+		2DDF2AC61B4A4FB0004A8D4C /* BATCrimesListInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATCrimesListInterfaceController.m; sourceTree = "<group>"; };
+		2DDF2AC81B4A5E6F004A8D4C /* bane_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bane_small.png; sourceTree = "<group>"; };
+		2DDF2AC91B4A5E6F004A8D4C /* ivy_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ivy_small.png; sourceTree = "<group>"; };
+		2DDF2ACA1B4A5E6F004A8D4C /* joker_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joker_small.png; sourceTree = "<group>"; };
+		2DDF2ACB1B4A5E6F004A8D4C /* mr-freeze_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mr-freeze_small.png"; sourceTree = "<group>"; };
+		2DDF2ACC1B4A5E6F004A8D4C /* penguin_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penguin_small.png; sourceTree = "<group>"; };
+		2DDF2ACD1B4A5E6F004A8D4C /* ras-al-gul_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ras-al-gul_small.png"; sourceTree = "<group>"; };
+		2DDF2ACE1B4A5E6F004A8D4C /* riddler_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riddler_small.png; sourceTree = "<group>"; };
+		2DE62A7C1B44D3F90003884D /* BatmanRaderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatmanRaderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE62A831B44D3F90003884D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DE62A841B44D3F90003884D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DE62A8A1B44D3F90003884D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DE62A8C1B44D3F90003884D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2DE62A8F1B44D3F90003884D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2DE62A951B44D3F90003884D /* BatmanRaderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatmanRaderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE62A9A1B44D3F90003884D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE62A9B1B44D3F90003884D /* BatmanRaderAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BatmanRaderAppTests.m; sourceTree = "<group>"; };
+		2DE62AA61B44D4380003884D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE62AA71B44D4380003884D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DE62AA91B44D4380003884D /* ark-knight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ark-knight.png"; sourceTree = "<group>"; };
+		2DE62AAA1B44D4380003884D /* bane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bane.png; sourceTree = "<group>"; };
+		2DE62AAB1B44D4380003884D /* clay-face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clay-face.png"; sourceTree = "<group>"; };
+		2DE62AAC1B44D4380003884D /* harley-quinn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "harley-quinn.png"; sourceTree = "<group>"; };
+		2DE62AAD1B44D4380003884D /* ivy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ivy.png; sourceTree = "<group>"; };
+		2DE62AAE1B44D4380003884D /* jason-todd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jason-todd.png"; sourceTree = "<group>"; };
+		2DE62AAF1B44D4380003884D /* joker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joker.png; sourceTree = "<group>"; };
+		2DE62AB01B44D4380003884D /* killer-croc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "killer-croc.png"; sourceTree = "<group>"; };
+		2DE62AB11B44D4380003884D /* mr-freeze.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mr-freeze.png"; sourceTree = "<group>"; };
+		2DE62AB21B44D4380003884D /* penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penguin.png; sourceTree = "<group>"; };
+		2DE62AB31B44D4380003884D /* ras-al-gul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ras-al-gul.png"; sourceTree = "<group>"; };
+		2DE62AB41B44D4380003884D /* riddler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riddler.png; sourceTree = "<group>"; };
+		2DE62AB51B44D4380003884D /* two-face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "two-face.png"; sourceTree = "<group>"; };
+		2DE62AC71B44D4820003884D /* BATCrimesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATCrimesListViewController.h; sourceTree = "<group>"; };
+		2DE62AC81B44D4820003884D /* BATCrimesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATCrimesListViewController.m; sourceTree = "<group>"; };
+		2DE62ACA1B44D6240003884D /* BATCrimeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATCrimeTableViewCell.h; sourceTree = "<group>"; };
+		2DE62ACB1B44D6240003884D /* BATCrimeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATCrimeTableViewCell.m; sourceTree = "<group>"; };
+		2DE62ACC1B44D6240003884D /* BATCrimeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BATCrimeTableViewCell.xib; sourceTree = "<group>"; };
+		2DE62AD11B44DA790003884D /* BATVillainObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATVillainObject.h; sourceTree = "<group>"; };
+		2DE62AD21B44DA790003884D /* BATVillainObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATVillainObject.m; sourceTree = "<group>"; };
+		2DE62AD41B44DA860003884D /* BATCrimeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATCrimeObject.h; sourceTree = "<group>"; };
+		2DE62AD51B44DA860003884D /* BATCrimeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATCrimeObject.m; sourceTree = "<group>"; };
+		2DE62AD71B44DB620003884D /* BATCrimesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATCrimesDataSource.h; sourceTree = "<group>"; };
+		2DE62AD81B44DB620003884D /* BATCrimesDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATCrimesDataSource.m; sourceTree = "<group>"; };
+		2DEA62101B4B964100E289B8 /* BATCrimeCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATCrimeCellController.h; sourceTree = "<group>"; };
+		2DEA62111B4B964100E289B8 /* BATCrimeCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATCrimeCellController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DDF2A9B1B4A4C08004A8D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE62A791B44D3F90003884D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0520311B451C15006F5F68 /* CoreLocation.framework in Frameworks */,
+				2D05202F1B451C0E006F5F68 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE62A921B44D3F90003884D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DDF2A9F1B4A4C08004A8D4C /* BatmanRaderApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2DDF2AC31B4A4F2E004A8D4C /* Cells */,
+				2DDF2AC41B4A4F2E004A8D4C /* Interface Controller */,
+				2DDF2AA91B4A4C08004A8D4C /* Images.xcassets */,
+				2DDF2AA01B4A4C08004A8D4C /* Supporting Files */,
+			);
+			path = "BatmanRaderApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		2DDF2AA01B4A4C08004A8D4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DDF2AA11B4A4C08004A8D4C /* Info.plist */,
+				2DDF2AA21B4A4C08004A8D4C /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DDF2AB11B4A4C08004A8D4C /* BatmanRaderApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				2DDF2AB41B4A4C08004A8D4C /* Interface.storyboard */,
+				2DDF2AB71B4A4C08004A8D4C /* Images.xcassets */,
+				2DDF2AB21B4A4C08004A8D4C /* Supporting Files */,
+			);
+			path = "BatmanRaderApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		2DDF2AB21B4A4C08004A8D4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DDF2AB31B4A4C08004A8D4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DDF2AC31B4A4F2E004A8D4C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2DEA62101B4B964100E289B8 /* BATCrimeCellController.h */,
+				2DEA62111B4B964100E289B8 /* BATCrimeCellController.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2DDF2AC41B4A4F2E004A8D4C /* Interface Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2DDF2AC51B4A4FB0004A8D4C /* BATCrimesListInterfaceController.h */,
+				2DDF2AC61B4A4FB0004A8D4C /* BATCrimesListInterfaceController.m */,
+				2D6B4C751B4BB55D00DF0537 /* BATCrimeDetailInterfaceController.h */,
+				2D6B4C761B4BB55D00DF0537 /* BATCrimeDetailInterfaceController.m */,
+			);
+			path = "Interface Controller";
+			sourceTree = "<group>";
+		};
+		2DE62A731B44D3F80003884D = {
+			isa = PBXGroup;
+			children = (
+				2DE62A7E1B44D3F90003884D /* BatmanRaderApp */,
+				2DE62A981B44D3F90003884D /* BatmanRaderAppTests */,
+				2DDF2A9F1B4A4C08004A8D4C /* BatmanRaderApp WatchKit Extension */,
+				2DDF2AB11B4A4C08004A8D4C /* BatmanRaderApp WatchKit App */,
+				2DE62A7D1B44D3F90003884D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DE62A7D1B44D3F90003884D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DE62A7C1B44D3F90003884D /* BatmanRaderApp.app */,
+				2DE62A951B44D3F90003884D /* BatmanRaderAppTests.xctest */,
+				2DDF2A9E1B4A4C08004A8D4C /* BatmanRaderApp WatchKit Extension.appex */,
+				2DDF2AAD1B4A4C08004A8D4C /* BatmanRaderApp WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DE62A7E1B44D3F90003884D /* BatmanRaderApp */ = {
+			isa = PBXGroup;
+			children = (
+				2DE62A831B44D3F90003884D /* AppDelegate.h */,
+				2DE62A841B44D3F90003884D /* AppDelegate.m */,
+				2DE62AA51B44D4380003884D /* Supporting Files */,
+				2DE62AB61B44D4380003884D /* View Controllers */,
+				2DE62AB71B44D4380003884D /* Views */,
+				2DE62ACF1B44DA640003884D /* Helpers */,
+				2DE62AD01B44DA640003884D /* Objects */,
+				2DE62A891B44D3F90003884D /* Main.storyboard */,
+				2DE62A8C1B44D3F90003884D /* Images.xcassets */,
+				2DE62A8E1B44D3F90003884D /* LaunchScreen.xib */,
+			);
+			path = BatmanRaderApp;
+			sourceTree = "<group>";
+		};
+		2DE62A981B44D3F90003884D /* BatmanRaderAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DE62A9B1B44D3F90003884D /* BatmanRaderAppTests.m */,
+				2DE62A991B44D3F90003884D /* Supporting Files */,
+			);
+			path = BatmanRaderAppTests;
+			sourceTree = "<group>";
+		};
+		2DE62A991B44D3F90003884D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DE62A9A1B44D3F90003884D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DE62AA51B44D4380003884D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D0520301B451C15006F5F68 /* CoreLocation.framework */,
+				2D05202E1B451C0E006F5F68 /* MapKit.framework */,
+				2DE62AA61B44D4380003884D /* Info.plist */,
+				2DE62AA71B44D4380003884D /* main.m */,
+				2DE62AA81B44D4380003884D /* Resources */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DE62AA81B44D4380003884D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D8D32801B4F446300FB5A57 /* bat_pin.png */,
+				2DDF2AC81B4A5E6F004A8D4C /* bane_small.png */,
+				2DDF2AC91B4A5E6F004A8D4C /* ivy_small.png */,
+				2DDF2ACA1B4A5E6F004A8D4C /* joker_small.png */,
+				2DDF2ACB1B4A5E6F004A8D4C /* mr-freeze_small.png */,
+				2DDF2ACC1B4A5E6F004A8D4C /* penguin_small.png */,
+				2DDF2ACD1B4A5E6F004A8D4C /* ras-al-gul_small.png */,
+				2DDF2ACE1B4A5E6F004A8D4C /* riddler_small.png */,
+				2D0520201B451551006F5F68 /* joker_pin.png */,
+				2D0520211B451551006F5F68 /* penguin_pin.png */,
+				2D0520221B451551006F5F68 /* rasalgul_pin.png */,
+				2D0520231B451551006F5F68 /* riddler_pin.png */,
+				2D0520351B452873006F5F68 /* bane_pin.png */,
+				2D0520361B452873006F5F68 /* freeze_pin.png */,
+				2D0520371B452873006F5F68 /* ivy_pin.png */,
+				2DE62AA91B44D4380003884D /* ark-knight.png */,
+				2DE62AAA1B44D4380003884D /* bane.png */,
+				2DE62AAB1B44D4380003884D /* clay-face.png */,
+				2DE62AAC1B44D4380003884D /* harley-quinn.png */,
+				2DE62AAD1B44D4380003884D /* ivy.png */,
+				2DE62AAE1B44D4380003884D /* jason-todd.png */,
+				2DE62AAF1B44D4380003884D /* joker.png */,
+				2DE62AB01B44D4380003884D /* killer-croc.png */,
+				2DE62AB11B44D4380003884D /* mr-freeze.png */,
+				2DE62AB21B44D4380003884D /* penguin.png */,
+				2DE62AB31B44D4380003884D /* ras-al-gul.png */,
+				2DE62AB41B44D4380003884D /* riddler.png */,
+				2DE62AB51B44D4380003884D /* two-face.png */,
+				2DAF3CD21B50A78200D98B36 /* avatar.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2DE62AB61B44D4380003884D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2DE62AC71B44D4820003884D /* BATCrimesListViewController.h */,
+				2DE62AC81B44D4820003884D /* BATCrimesListViewController.m */,
+				2D05203B1B45296D006F5F68 /* BATCrimeDetailViewController.h */,
+				2D05203C1B45296D006F5F68 /* BATCrimeDetailViewController.m */,
+				2D0520281B45162D006F5F68 /* BATMapViewController.h */,
+				2D0520291B45162D006F5F68 /* BATMapViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2DE62AB71B44D4380003884D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2DE62ACA1B44D6240003884D /* BATCrimeTableViewCell.h */,
+				2DE62ACB1B44D6240003884D /* BATCrimeTableViewCell.m */,
+				2DE62ACC1B44D6240003884D /* BATCrimeTableViewCell.xib */,
+				2D0520321B452422006F5F68 /* BATMapAnnotation.h */,
+				2D0520331B452422006F5F68 /* BATMapAnnotation.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2DE62ACF1B44DA640003884D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2DE62AD71B44DB620003884D /* BATCrimesDataSource.h */,
+				2DE62AD81B44DB620003884D /* BATCrimesDataSource.m */,
+				2D05202B1B451674006F5F68 /* BATLocationHelper.h */,
+				2D05202C1B451674006F5F68 /* BATLocationHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2DE62AD01B44DA640003884D /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				2DE62AD11B44DA790003884D /* BATVillainObject.h */,
+				2DE62AD21B44DA790003884D /* BATVillainObject.m */,
+				2DE62AD41B44DA860003884D /* BATCrimeObject.h */,
+				2DE62AD51B44DA860003884D /* BATCrimeObject.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DDF2A9D1B4A4C08004A8D4C /* BatmanRaderApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DDF2AC21B4A4C08004A8D4C /* Build configuration list for PBXNativeTarget "BatmanRaderApp WatchKit Extension" */;
+			buildPhases = (
+				2DDF2A9A1B4A4C08004A8D4C /* Sources */,
+				2DDF2A9B1B4A4C08004A8D4C /* Frameworks */,
+				2DDF2A9C1B4A4C08004A8D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DDF2AB01B4A4C08004A8D4C /* PBXTargetDependency */,
+			);
+			name = "BatmanRaderApp WatchKit Extension";
+			productName = "BatmanRaderApp WatchKit Extension";
+			productReference = 2DDF2A9E1B4A4C08004A8D4C /* BatmanRaderApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		2DDF2AAC1B4A4C08004A8D4C /* BatmanRaderApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DDF2AC11B4A4C08004A8D4C /* Build configuration list for PBXNativeTarget "BatmanRaderApp WatchKit App" */;
+			buildPhases = (
+				2DDF2AAB1B4A4C08004A8D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BatmanRaderApp WatchKit App";
+			productName = "BatmanRaderApp WatchKit App";
+			productReference = 2DDF2AAD1B4A4C08004A8D4C /* BatmanRaderApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		2DE62A7B1B44D3F90003884D /* BatmanRaderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DE62A9F1B44D3F90003884D /* Build configuration list for PBXNativeTarget "BatmanRaderApp" */;
+			buildPhases = (
+				2DE62A781B44D3F90003884D /* Sources */,
+				2DE62A791B44D3F90003884D /* Frameworks */,
+				2DE62A7A1B44D3F90003884D /* Resources */,
+				2DDF2ABB1B4A4C08004A8D4C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DDF2ABA1B4A4C08004A8D4C /* PBXTargetDependency */,
+			);
+			name = BatmanRaderApp;
+			productName = BatmanRaderApp;
+			productReference = 2DE62A7C1B44D3F90003884D /* BatmanRaderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DE62A941B44D3F90003884D /* BatmanRaderAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DE62AA21B44D3F90003884D /* Build configuration list for PBXNativeTarget "BatmanRaderAppTests" */;
+			buildPhases = (
+				2DE62A911B44D3F90003884D /* Sources */,
+				2DE62A921B44D3F90003884D /* Frameworks */,
+				2DE62A931B44D3F90003884D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DE62A971B44D3F90003884D /* PBXTargetDependency */,
+			);
+			name = BatmanRaderAppTests;
+			productName = BatmanRaderAppTests;
+			productReference = 2DE62A951B44D3F90003884D /* BatmanRaderAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DE62A741B44D3F80003884D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = YXApp;
+				TargetAttributes = {
+					2DDF2A9D1B4A4C08004A8D4C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2DDF2AAC1B4A4C08004A8D4C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2DE62A7B1B44D3F90003884D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2DE62A941B44D3F90003884D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2DE62A7B1B44D3F90003884D;
+					};
+				};
+			};
+			buildConfigurationList = 2DE62A771B44D3F80003884D /* Build configuration list for PBXProject "BatmanRaderApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DE62A731B44D3F80003884D;
+			productRefGroup = 2DE62A7D1B44D3F90003884D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DE62A7B1B44D3F90003884D /* BatmanRaderApp */,
+				2DE62A941B44D3F90003884D /* BatmanRaderAppTests */,
+				2DDF2A9D1B4A4C08004A8D4C /* BatmanRaderApp WatchKit Extension */,
+				2DDF2AAC1B4A4C08004A8D4C /* BatmanRaderApp WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DDF2A9C1B4A4C08004A8D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAF3CD41B50A78200D98B36 /* avatar.jpg in Resources */,
+				2D8D32631B4F3F9200FB5A57 /* riddler.png in Resources */,
+				2D8D32531B4F3F9200FB5A57 /* rasalgul_pin.png in Resources */,
+				2D8D325F1B4F3F9200FB5A57 /* killer-croc.png in Resources */,
+				2D8D32611B4F3F9200FB5A57 /* penguin.png in Resources */,
+				2D8D32541B4F3F9200FB5A57 /* riddler_pin.png in Resources */,
+				2D8D325D1B4F3F9200FB5A57 /* jason-todd.png in Resources */,
+				2D8D324B1B4F3F9200FB5A57 /* ivy_small.png in Resources */,
+				2D8D32601B4F3F9200FB5A57 /* mr-freeze.png in Resources */,
+				2D8D32501B4F3F9200FB5A57 /* riddler_small.png in Resources */,
+				2DDF2AAE1B4A4C08004A8D4C /* BatmanRaderApp WatchKit App.app in Resources */,
+				2D8D32511B4F3F9200FB5A57 /* joker_pin.png in Resources */,
+				2D8D324C1B4F3F9200FB5A57 /* joker_small.png in Resources */,
+				2D8D325A1B4F3F9200FB5A57 /* clay-face.png in Resources */,
+				2D8D324E1B4F3F9200FB5A57 /* penguin_small.png in Resources */,
+				2D8D32561B4F3F9200FB5A57 /* freeze_pin.png in Resources */,
+				2D8D32581B4F3F9200FB5A57 /* ark-knight.png in Resources */,
+				2D8D324F1B4F3F9200FB5A57 /* ras-al-gul_small.png in Resources */,
+				2D8D325B1B4F3F9200FB5A57 /* harley-quinn.png in Resources */,
+				2D8D32591B4F3F9200FB5A57 /* bane.png in Resources */,
+				2D8D32821B4F446300FB5A57 /* bat_pin.png in Resources */,
+				2D8D32551B4F3F9200FB5A57 /* bane_pin.png in Resources */,
+				2D8D32621B4F3F9200FB5A57 /* ras-al-gul.png in Resources */,
+				2D8D324A1B4F3F9200FB5A57 /* bane_small.png in Resources */,
+				2D8D325E1B4F3F9200FB5A57 /* joker.png in Resources */,
+				2D8D32571B4F3F9200FB5A57 /* ivy_pin.png in Resources */,
+				2D8D32521B4F3F9200FB5A57 /* penguin_pin.png in Resources */,
+				2D8D325C1B4F3F9200FB5A57 /* ivy.png in Resources */,
+				2DDF2AAA1B4A4C08004A8D4C /* Images.xcassets in Resources */,
+				2D8D324D1B4F3F9200FB5A57 /* mr-freeze_small.png in Resources */,
+				2D8D32641B4F3F9200FB5A57 /* two-face.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DDF2AAB1B4A4C08004A8D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAF3CD51B50A78200D98B36 /* avatar.jpg in Resources */,
+				2D8D327E1B4F3F9400FB5A57 /* riddler.png in Resources */,
+				2D8D326E1B4F3F9400FB5A57 /* rasalgul_pin.png in Resources */,
+				2D8D327A1B4F3F9400FB5A57 /* killer-croc.png in Resources */,
+				2D8D327C1B4F3F9400FB5A57 /* penguin.png in Resources */,
+				2D8D326F1B4F3F9400FB5A57 /* riddler_pin.png in Resources */,
+				2D8D32781B4F3F9400FB5A57 /* jason-todd.png in Resources */,
+				2D8D32661B4F3F9400FB5A57 /* ivy_small.png in Resources */,
+				2D8D327B1B4F3F9400FB5A57 /* mr-freeze.png in Resources */,
+				2D8D326B1B4F3F9400FB5A57 /* riddler_small.png in Resources */,
+				2DDF2AB61B4A4C08004A8D4C /* Interface.storyboard in Resources */,
+				2D8D326C1B4F3F9400FB5A57 /* joker_pin.png in Resources */,
+				2D8D32671B4F3F9400FB5A57 /* joker_small.png in Resources */,
+				2D8D32751B4F3F9400FB5A57 /* clay-face.png in Resources */,
+				2D8D32691B4F3F9400FB5A57 /* penguin_small.png in Resources */,
+				2D8D32711B4F3F9400FB5A57 /* freeze_pin.png in Resources */,
+				2D8D32731B4F3F9400FB5A57 /* ark-knight.png in Resources */,
+				2D8D326A1B4F3F9400FB5A57 /* ras-al-gul_small.png in Resources */,
+				2D8D32761B4F3F9400FB5A57 /* harley-quinn.png in Resources */,
+				2D8D32741B4F3F9400FB5A57 /* bane.png in Resources */,
+				2D8D32831B4F446300FB5A57 /* bat_pin.png in Resources */,
+				2D8D32701B4F3F9400FB5A57 /* bane_pin.png in Resources */,
+				2D8D327D1B4F3F9400FB5A57 /* ras-al-gul.png in Resources */,
+				2D8D32651B4F3F9400FB5A57 /* bane_small.png in Resources */,
+				2D8D32791B4F3F9400FB5A57 /* joker.png in Resources */,
+				2D8D32721B4F3F9400FB5A57 /* ivy_pin.png in Resources */,
+				2D8D326D1B4F3F9400FB5A57 /* penguin_pin.png in Resources */,
+				2D8D32771B4F3F9400FB5A57 /* ivy.png in Resources */,
+				2DDF2AB81B4A4C08004A8D4C /* Images.xcassets in Resources */,
+				2D8D32681B4F3F9400FB5A57 /* mr-freeze_small.png in Resources */,
+				2D8D327F1B4F3F9400FB5A57 /* two-face.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE62A7A1B44D3F90003884D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE62AC61B44D4380003884D /* two-face.png in Resources */,
+				2DE62AC31B44D4380003884D /* penguin.png in Resources */,
+				2DDF2ADB1B4A5E6F004A8D4C /* riddler_small.png in Resources */,
+				2DE62ACE1B44D6240003884D /* BATCrimeTableViewCell.xib in Resources */,
+				2DE62ABD1B44D4380003884D /* harley-quinn.png in Resources */,
+				2DDF2AD51B4A5E6F004A8D4C /* mr-freeze_small.png in Resources */,
+				2DE62AC11B44D4380003884D /* killer-croc.png in Resources */,
+				2DDF2ACF1B4A5E6F004A8D4C /* bane_small.png in Resources */,
+				2DE62ABC1B44D4380003884D /* clay-face.png in Resources */,
+				2DE62AC51B44D4380003884D /* riddler.png in Resources */,
+				2DE62AC01B44D4380003884D /* joker.png in Resources */,
+				2DDF2AD31B4A5E6F004A8D4C /* joker_small.png in Resources */,
+				2D0520391B452873006F5F68 /* freeze_pin.png in Resources */,
+				2DE62ABF1B44D4380003884D /* jason-todd.png in Resources */,
+				2D0520381B452873006F5F68 /* bane_pin.png in Resources */,
+				2D0520261B451551006F5F68 /* rasalgul_pin.png in Resources */,
+				2DE62AB81B44D4380003884D /* Info.plist in Resources */,
+				2D0520251B451551006F5F68 /* penguin_pin.png in Resources */,
+				2DE62A8B1B44D3F90003884D /* Main.storyboard in Resources */,
+				2DE62AC21B44D4380003884D /* mr-freeze.png in Resources */,
+				2DE62A901B44D3F90003884D /* LaunchScreen.xib in Resources */,
+				2DDF2AD71B4A5E6F004A8D4C /* penguin_small.png in Resources */,
+				2D8D32811B4F446300FB5A57 /* bat_pin.png in Resources */,
+				2DE62AC41B44D4380003884D /* ras-al-gul.png in Resources */,
+				2DE62ABA1B44D4380003884D /* ark-knight.png in Resources */,
+				2DE62ABE1B44D4380003884D /* ivy.png in Resources */,
+				2DDF2AD91B4A5E6F004A8D4C /* ras-al-gul_small.png in Resources */,
+				2DE62A8D1B44D3F90003884D /* Images.xcassets in Resources */,
+				2DDF2AD11B4A5E6F004A8D4C /* ivy_small.png in Resources */,
+				2DE62ABB1B44D4380003884D /* bane.png in Resources */,
+				2D0520271B451551006F5F68 /* riddler_pin.png in Resources */,
+				2D05203A1B452873006F5F68 /* ivy_pin.png in Resources */,
+				2DAF3CD31B50A78200D98B36 /* avatar.jpg in Resources */,
+				2D0520241B451551006F5F68 /* joker_pin.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE62A931B44D3F90003884D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DDF2A9A1B4A4C08004A8D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6B4C771B4BB55D00DF0537 /* BATCrimeDetailInterfaceController.m in Sources */,
+				2DEA62121B4B964100E289B8 /* BATCrimeCellController.m in Sources */,
+				2D6B4C531B4BA8B000DF0537 /* BATCrimeObject.m in Sources */,
+				2D6B4C521B4BA8AE00DF0537 /* BATVillainObject.m in Sources */,
+				2DDF2AC71B4A4FB0004A8D4C /* BATCrimesListInterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE62A781B44D3F90003884D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE62AD91B44DB620003884D /* BATCrimesDataSource.m in Sources */,
+				2DE62ACD1B44D6240003884D /* BATCrimeTableViewCell.m in Sources */,
+				2DE62AC91B44D4820003884D /* BATCrimesListViewController.m in Sources */,
+				2DE62AD31B44DA790003884D /* BATVillainObject.m in Sources */,
+				2DE62AD61B44DA860003884D /* BATCrimeObject.m in Sources */,
+				2D0520341B452422006F5F68 /* BATMapAnnotation.m in Sources */,
+				2D05202A1B45162D006F5F68 /* BATMapViewController.m in Sources */,
+				2DE62A851B44D3F90003884D /* AppDelegate.m in Sources */,
+				2DE62AB91B44D4380003884D /* main.m in Sources */,
+				2D05202D1B451674006F5F68 /* BATLocationHelper.m in Sources */,
+				2D05203D1B45296D006F5F68 /* BATCrimeDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE62A911B44D3F90003884D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE62A9C1B44D3F90003884D /* BatmanRaderAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DDF2AB01B4A4C08004A8D4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DDF2AAC1B4A4C08004A8D4C /* BatmanRaderApp WatchKit App */;
+			targetProxy = 2DDF2AAF1B4A4C08004A8D4C /* PBXContainerItemProxy */;
+		};
+		2DDF2ABA1B4A4C08004A8D4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DDF2A9D1B4A4C08004A8D4C /* BatmanRaderApp WatchKit Extension */;
+			targetProxy = 2DDF2AB91B4A4C08004A8D4C /* PBXContainerItemProxy */;
+		};
+		2DE62A971B44D3F90003884D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DE62A7B1B44D3F90003884D /* BatmanRaderApp */;
+			targetProxy = 2DE62A961B44D3F90003884D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DDF2AB41B4A4C08004A8D4C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DDF2AB51B4A4C08004A8D4C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		2DE62A891B44D3F90003884D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DE62A8A1B44D3F90003884D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DE62A8E1B44D3F90003884D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DE62A8F1B44D3F90003884D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DDF2ABD1B4A4C08004A8D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BatmanRaderApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2DDF2ABE1B4A4C08004A8D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BatmanRaderApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2DDF2ABF1B4A4C08004A8D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = BatmanRaderApp_WatchKit_Extension;
+				INFOPLIST_FILE = "BatmanRaderApp WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		2DDF2AC01B4A4C08004A8D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = BatmanRaderApp_WatchKit_Extension;
+				INFOPLIST_FILE = "BatmanRaderApp WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		2DE62A9D1B44D3F90003884D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DE62A9E1B44D3F90003884D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DE62AA01B44D3F90003884D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/BatmanRaderApp/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2DE62AA11B44D3F90003884D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/BatmanRaderApp/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2DE62AA31B44D3F90003884D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BatmanRaderAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatmanRaderApp.app/BatmanRaderApp";
+			};
+			name = Debug;
+		};
+		2DE62AA41B44D3F90003884D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BatmanRaderAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatmanRaderApp.app/BatmanRaderApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DDF2AC11B4A4C08004A8D4C /* Build configuration list for PBXNativeTarget "BatmanRaderApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DDF2ABF1B4A4C08004A8D4C /* Debug */,
+				2DDF2AC01B4A4C08004A8D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DDF2AC21B4A4C08004A8D4C /* Build configuration list for PBXNativeTarget "BatmanRaderApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DDF2ABD1B4A4C08004A8D4C /* Debug */,
+				2DDF2ABE1B4A4C08004A8D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DE62A771B44D3F80003884D /* Build configuration list for PBXProject "BatmanRaderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE62A9D1B44D3F90003884D /* Debug */,
+				2DE62A9E1B44D3F90003884D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DE62A9F1B44D3F90003884D /* Build configuration list for PBXNativeTarget "BatmanRaderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE62AA01B44D3F90003884D /* Debug */,
+				2DE62AA11B44D3F90003884D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DE62AA21B44D3F90003884D /* Build configuration list for PBXNativeTarget "BatmanRaderAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE62AA31B44D3F90003884D /* Debug */,
+				2DE62AA41B44D3F90003884D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DE62A741B44D3F80003884D /* Project object */;
+}
